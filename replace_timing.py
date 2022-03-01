@@ -87,4 +87,4 @@ if len(sys.argv) > 1:
     
 else:
     print("TaikoFumenTimingReplace\nUsage:",sys.argv[0], "inFile outFile timingWindow",
-    "\n\nTiming Options: Standard, Hitnarrow, Hitwide or User Defined Values")
+    "\n\nTiming Options: Standard, Hitnarrow, Hitwide or a User Defined Option.")
