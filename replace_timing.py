@@ -34,12 +34,12 @@ if len(sys.argv) > 1:
 
     else:
         try:
-            GOOD = config.getfloat(sys.argv[3].lower, 'good')
-            OK = config.getfloat(sys.argv[3].lower, 'ok')
-            BAD = config.getfloat(sys.argv[3].lower, 'bad')
-            GOOD_EASY = config.getfloat(sys.argv[3].lower, 'good_easy')
-            OK_EASY = config.getfloat(sys.argv[3].lower, 'ok_easy')
-            BAD_EASY = config.getfloat(sys.argv[3].lower, 'bad_easy')
+            GOOD = config.getfloat(sys.argv[3].lower(), 'good')
+            OK = config.getfloat(sys.argv[3].lower(), 'ok')
+            BAD = config.getfloat(sys.argv[3].lower(), 'bad')
+            GOOD_EASY = config.getfloat(sys.argv[3].lower(), 'good_easy')
+            OK_EASY = config.getfloat(sys.argv[3].lower(), 'ok_easy')
+            BAD_EASY = config.getfloat(sys.argv[3].lower(), 'bad_easy')
     
         except:
             print("Invalid Input")
